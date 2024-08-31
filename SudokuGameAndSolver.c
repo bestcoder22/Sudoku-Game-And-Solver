@@ -281,7 +281,7 @@ int main()
         // providing the  user with the freedom of  choosing the  cordinates to work on.
         printf("Enter the row-cordinates :\n\n");
         scanf("%d", &m);
-        printf("Enter the coluumn-cordinates :\n\n");
+        printf("Enter the column-cordinates :\n\n");
         scanf("%d", &n);
         // checking for valid cordinates
         if (user_board[m - 1][n - 1] != '.')
